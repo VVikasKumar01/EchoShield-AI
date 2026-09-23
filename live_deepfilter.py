@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""DeepFilterNet Live Real-Time Speech Enhancement
+"""EchoShield Live Real-Time Speech Enhancement
 Uses decoupled non-blocking InputStream and OutputStream
 to guarantee seamless cross-device audio routing with zero dropouts.
 
@@ -28,7 +28,7 @@ import sounddevice as sd
 
 # Add DeepFilterNet to python path
 project_root = Path(__file__).resolve().parent
-df_path = project_root / "DeepFilterNet"
+df_path = project_root / "EchoShield"
 if str(df_path) not in sys.path:
     sys.path.insert(0, str(df_path))
 

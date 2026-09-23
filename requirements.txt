@@ -1,0 +1,12 @@
+﻿# EchoShield AI - Dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.20.0
+sounddevice>=0.4.6
+soundfile>=0.12.1
+scipy>=1.10.0
+loguru>=0.5.0
+requests>=2.28.0
+icecream>=2.1.0
+packaging
+sympy

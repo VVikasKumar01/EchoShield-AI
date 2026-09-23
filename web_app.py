@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""DeepFilterNet Modern Web Interface
-Interactive GUI for DeepFilterNet Speech Enhancement with:
+"""EchoShield Modern Web Interface
+Interactive GUI for EchoShield Speech Enhancement with:
 - Audio File Upload & Processing (Supports WAV, MP3, M4A, FLAC, OGG, WebM)
 - In-browser Microphone Recording & Instant AI Cleaning
 - Before / After Audio Players with Waveform Visualization
@@ -31,7 +31,7 @@ import torch
 
 # Add DeepFilterNet to python path
 project_root = Path(__file__).resolve().parent
-df_path = project_root / "DeepFilterNet"
+df_path = project_root / "EchoShield"
 if str(df_path) not in sys.path:
     sys.path.insert(0, str(df_path))
 
