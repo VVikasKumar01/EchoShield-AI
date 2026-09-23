@@ -1,0 +1,25 @@
+============================================================
+  BENCHMARK ACCEPTANCE REPORT
+  2026-09-04 17:23:31
+============================================================
+
+  [Model_A_Baseline]  Model A – DFN3 Core Only (Baseline)
+  --------------------------------------------------------
+  Stationary ΔSNR ≥ 5.0 dB : FAIL [X]  (-6.23 dB)
+  Impulse atten. ≥ 20.0 dB : FAIL [X]  (3.29 dB)
+  RTF < 1.0                   : PASS [OK]  (0.924)
+  Overall: NEEDS REVIEW [X]
+
+  [Model_B_Adapted]  Model B – DFN3 + Noise Classifier + Adaptive DSP
+  --------------------------------------------------------
+  Stationary ΔSNR ≥ 5.0 dB : FAIL [X]  (-5.24 dB)
+  Impulse atten. ≥ 20.0 dB : FAIL [X]  (2.71 dB)
+  RTF < 1.0                   : FAIL [X]  (1.565)
+  Overall: NEEDS REVIEW [X]
+
+  [Model_C_Full]  Model C – FULL DefenseDfNet (Proposed)
+  --------------------------------------------------------
+  Stationary ΔSNR ≥ 5.0 dB : FAIL [X]  (-7.60 dB)
+  Impulse atten. ≥ 20.0 dB : FAIL [X]  (-0.60 dB)
+  RTF < 1.0                   : FAIL [X]  (19.300)
+  Overall: NEEDS REVIEW [X]

@@ -1,0 +1,4 @@
+label,n_params,mean_rtf,mean_frame_ms,peak_mem_mb,stat_dsnr_db,stat_sisdr_gain_db,nonstat_stoi,nonstat_sisdr_gain_db,imp_attenuation_db,imp_recovery_frames,imp_swallow_ratio,clips_evaluated
+Model A – DFN3 Core Only (Baseline),2364520,0.924,9.24,2.6,-6.233,-12.094,0.184,-13.216,3.293,2.764,0.953,150
+Model B – DFN3 + Noise Classifier + Adaptive DSP,2369323,1.565,15.65,2.2,-5.243,-32.731,0.054,-35.636,2.713,0.404,0.816,150
+Model C – FULL DefenseDfNet (Proposed),2369323,19.3,193.0,2.2,-7.596,-38.145,0.013,-35.467,-0.6,0.182,1.07,150

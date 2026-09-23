@@ -1,0 +1,26 @@
+{
+  "total_clips": 150,
+  "total_duration_s": 600.0,
+  "sr_hz": 48000,
+  "snr_grid": [
+    -10,
+    -5,
+    0,
+    5,
+    10
+  ],
+  "class_breakdown": {
+    "0": 60,
+    "1": 45,
+    "2": 45
+  },
+  "snr_breakdown": {
+    "-10": 30,
+    "-5": 30,
+    "0": 30,
+    "5": 30,
+    "10": 30
+  },
+  "clips_per_combo": 3,
+  "seed": 42
+}

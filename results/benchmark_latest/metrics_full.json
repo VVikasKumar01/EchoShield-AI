@@ -1,0 +1,47 @@
+{
+  "Model_A_Baseline": {
+    "label": "Model A \u2013 DFN3 Core Only (Baseline)",
+    "n_params": 2364520,
+    "mean_rtf": 0.924,
+    "mean_frame_ms": 9.24,
+    "peak_mem_mb": 2.6,
+    "stat_dsnr_db": -6.233,
+    "stat_sisdr_gain_db": -12.094,
+    "nonstat_stoi": 0.184,
+    "nonstat_sisdr_gain_db": -13.216,
+    "imp_attenuation_db": 3.293,
+    "imp_recovery_frames": 2.764,
+    "imp_swallow_ratio": 0.953,
+    "clips_evaluated": 150
+  },
+  "Model_B_Adapted": {
+    "label": "Model B \u2013 DFN3 + Noise Classifier + Adaptive DSP",
+    "n_params": 2369323,
+    "mean_rtf": 1.565,
+    "mean_frame_ms": 15.65,
+    "peak_mem_mb": 2.2,
+    "stat_dsnr_db": -5.243,
+    "stat_sisdr_gain_db": -32.731,
+    "nonstat_stoi": 0.054,
+    "nonstat_sisdr_gain_db": -35.636,
+    "imp_attenuation_db": 2.713,
+    "imp_recovery_frames": 0.404,
+    "imp_swallow_ratio": 0.816,
+    "clips_evaluated": 150
+  },
+  "Model_C_Full": {
+    "label": "Model C \u2013 FULL DefenseDfNet (Proposed)",
+    "n_params": 2369323,
+    "mean_rtf": 19.3,
+    "mean_frame_ms": 193.0,
+    "peak_mem_mb": 2.2,
+    "stat_dsnr_db": -7.596,
+    "stat_sisdr_gain_db": -38.145,
+    "nonstat_stoi": 0.013,
+    "nonstat_sisdr_gain_db": -35.467,
+    "imp_attenuation_db": -0.6,
+    "imp_recovery_frames": 0.182,
+    "imp_swallow_ratio": 1.07,
+    "clips_evaluated": 150
+  }
+}

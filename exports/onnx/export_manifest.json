@@ -1,0 +1,14 @@
+{
+  "export_timestamp": "2026-09-09 11:18:02.186500",
+  "opset": 17,
+  "sr_hz": 48000,
+  "n_fft_bins": 481,
+  "erb_bands": 32,
+  "df_bins": 96,
+  "exports": {
+    "full_model": "full_model.onnx",
+    "neural_core": "neural_core.onnx",
+    "noise_classifier": "noise_classifier.onnx"
+  },
+  "source_checkpoint": "models/DeepFilterNet_defense_init.ckpt"
+}
